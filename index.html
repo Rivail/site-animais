@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Site-Responsivo</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+		<script>
+	 function mudaFoto (foto) {
+		document.getElementById("icone").src = foto;
+	}
+</script>
+</head>
+<body>
+<div class="corpo verde">
+<header class="conteudo limpa">
+<a href="index.html" title="site">
+	 	<img id="icone" src="imagens/logo2.png" alt="cachorro" class="logo">
+	<nav class="menu bordas">
+		<ul>	
+			<li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/logo2.png')"><a href="index.html" title="inicio">Home</a></li>
+			<li onmouseover="mudaFoto('imagens/dog.png')" onmouseout="mudaFoto('imagens/logo2.png')"><a href="#adocao" title="Adoção">Adoção</a></li>
+			<li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/logo2.png')"><a href="#videos" title="Videos">Vídeos</a></li>
+			<li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/logo2.png')" ><a href="#fale-cosnosco" title="Fale Conosco">Fale conosco</a></li>
+			
+
+		</ul>   
+	</nav>
+
+</header>
+<div class="corpo preto">
+	<div class="conteudo">
+			<div class="slide">
+			<img src="imagens/slide1.jpg" alt="Imagem 1" title="Imagem 1" class="slideImagem">
+			<img src="imagens/slide2.jpg" alt="Imagem 2" title="Imagem 2" class="slideImagem">
+			<img src="imagens/slide3.jpg" alt="Imagem 3" title="Imagem 3" class="slideImagem">
+			</div>
+		</div>
+	</div>
+</div>
+<section class="corpo">
+<div class="conteudo">
+	<h1 class="tituloDestaque">melhores amigos para adoção esperando por você</h1>
+	<p>A presença de um animal de estimação em casa traz <strong>fecilidade e bem estar</strong>.Bolinhas de pelo alegres,
+	fofinhas e cheias de vida, grandes ou pequenas brancas, prestas, marrons ou amarelas, pulam e brincam o dia todo como se fossem brinquedinhos com energia infinita.</p>
+	<article class="caixa caixa3 sombra bordas">
+		<img src="imagens/ted.jpg" alt="Ted" title="Ted">
+		<h2 class="titulo textoVermelho">Ted</h2>
+		<p>Dou-me bem com outros animais e sou um ótimo perfil para famílias com crianças ou idosos</p>
+		<a href="#contato" title="Adote agora mesmo" class="botao botaoMedio botaoVermelho bordas">Adotar</a>
+	</article>
+	<article class="caixa caixa3 sombra bordas">
+		<img src="imagens/zezinho.jpg" alt="Zezinho" title="Zezinho">
+		<h2 class="titulo textoAzul">Zezinho</h2>
+		<p>Eu tenho um comportamento calmo, sou muito brincalhão e bastante obediente.</p>
+		<a href="#contato" title="Adote agora mesmo" class="botao botaoMedio botaoAzul bordas">Adotar</a>
+	</article>
+	<article class="caixa caixa3 sombra bordas">	
+		<img src="imagens/simba.jpg" alt="Simba" title="Simba">
+		<h2 class="titulo textoAmarelo">Simba</h2>
+		<p>Sou um leãozinho branco, sou bonzinho,carinhoso e amoroso,adoro receber carinho</p>
+		<a href="#contato" title="Adote agora mesmo" class="botao botaoMedio botaoAmarelo bordas">Adotar</a>
+	</article>
+	<article class="caixa caixa3 sombra bordas"> 
+		<img src="imagens/pacoca.jpg" alt="Paçoca" title="Paçoca">
+		<h2 class="titulo textoVerde">Paçoca</h2>
+		<p> Tenho um bigodinho charmoso, sou muito companheiro e calmo, gosto muito de brincar.</p>
+		<a href="#contato" title="Adote agora mesmo" class="botao botaoMedio botaoVerde bordas">Adotar</a>
+	</article>
+</div>
+	
+</section>
+
+
+<!--INÍCIO SEÇÃO EXÓTICOS-->
+<section class="cinza limpa">
+	<div class="conteudo">
+	<h1 class="tituloDestaque">Vídeos de animais exóticos (possíveis) para se ter em casa</h1>
+	<p>Quem disse que são só os peludinhos, frufruzentos que podem ser adotados? Veja alguns animais que também podem ser ótimas opções para serem amigos de estimação. É claro que existe uma infinidade, mas abaixo você vai encontrar alguns comuns, dentre os exóticos, que você realmente pode ter em casa.</p>
+
+	<article class="caixa caixa3">
+		<h2 class="titulo">Cacatua</h2>
+		<video controls>
+		<source src="uploads/videos/cacatua.mp4">
+		</video>
+		<p>Lindo psitacídeo nativo da Austrália e de outras partes do pacifico. Chegam 80 cm de altura e peso de 2 kg. Estes animais podem viver mais de 70 anos. Precisam de atenção.</p>
+	</article>
+	<article class="caixa caixa3">
+		<h2 class="titulo">Sagui</h2>
+		<iframe src="https://player.vimeo.com/video/126352750" allowfullscreen></iframe>
+ 
+		<p> Um macaquinho que chega a 10 cm de altura, está na classe dos exótico mais populares para se ter como pet. Animal que se desde pequeno é domesticado, vive numa boa com seu dono.</p>
+	</article>
+	<article class="caixa caixa3">
+		<h2 class="titulo">Coruja</h2>
+		<iframe src="https://www.youtube.com/embed/1OTlltSnM-w" allowfullscreen></iframe>
+		<p> Existem várias espécies de coruja, símbolo de sabedoria, essa ave é um excelente animal de estimação, pois elas são fieis ao dono e apresentam um hábito muito tranquilo.</p>
+	</article>
+	<article class="caixa caixa3">
+	<h2 class="titulo">Som dos animais</h2>
+		<ul class="audios">
+			<li>
+				<p>cachorro latindo alto</p>
+				<audio controls src="uploads/audios/cachorro_latindo_alto.mp3"></audio>
+		 	</li>
+		 	<li>
+				<p>cachorro chorando</p>
+				<audio controls src="uploads/audios/cachorro_chorando.mp3"></audio>
+		 	</li>
+		 	<li>
+				<p>coruja fofa</p>
+				<audio controls src="uploads/audios/coruja.mp3"></audio>
+		 	</li>
+		</ul>
+	</article>
+	</div>
+</section>
+	<section>
+		<div class="conteudo">
+			<div class="caixa caixa6">
+			<h1 class="tituloDestaque">Onde estamos</h1>
+			<ul class="endereco">
+				<li>
+					<img src="imagens/endereco.png" title="Endereço" alt="Endereço">
+					<address>rua:Dr Nogueira Martins 114, Saúde, São Paulo-SP CEP: 04143-020</address>
+				</li>
+				<li>
+					<img src="imagens/telefone.png" title="Telefone" alt="Telefone">
+					<p>	Telefone: (00) 00000-00000</p>
+				</li>
+				<li>
+					<img src="imagens/email.png" title="E-mail" alt="E-mail">
+					<a href="mailto:seuemail@dominio.com">E-mail: seuemail@dominio.com</a>
+				</li>
+				<li>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.7005631688608!2d-46.63567878447476!3d-23.615069569464207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a52998527c5%3A0x83743da6a3298e0c!2sR.+Dr.+Nogueira+Martins+-+Sa%C3%BAde%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1478995101864" style="border:0"></iframe>
+				</li>
+			</ul>
+		</div>
+			<!--INÍCIO DO FORMULÁRIO-->
+			<div class="caixa caixa6">
+				<h1 class="tituloDestaque">Fale conosco!</h1>
+
+				<form name="formulario" method="post">
+					<input type="text" name="nome" placeholder="Nome" required>
+					<input type="email" name="email" placeholder="E-mail" required>
+					<textarea name="mensagem" rows="5" placeholder="Mensagem" required></textarea>
+
+					<input type="submit" name="enviar" value="enviar mensagem" class="botao botaoGrande botaoAzul bordas">
+				</form>
+			</div>
+
+		</div>
+			
+	</section>
+
+ 
+</body>
+</html>
