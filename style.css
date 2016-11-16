@@ -197,9 +197,14 @@ audio {
 	overflow: hidden;
 	display: block;
 }
-/*cores*/
+/*CORES*/
+
+.fundoTopo {
+	background-image: url('imagens/topo.png');
+	background-repeat: repeat;
+}
 .verde {
-	background: #609E1B;	
+	background-color: #609E1B;	
 	color: #FFF;
 }
 .preto {
@@ -393,4 +398,25 @@ input[type="text"],input[type="email"], textarea {
 
 }
 
+/*RODAPÉ*/
+footer p {
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: center; 
+}
+footer spam {
+	font-size: 0.8em;
 
+}
+footer img {
+	width: 46px;
+	height: 46px;
+}
+/*SOCIAL*/
+.social li {
+	display: inline-block;
+	margin: 1%;
+}
+.social li a {
+	padding: 10px;
+}
