@@ -89,7 +89,7 @@ audio {
 	padding: 10px 30px;
 }
 .botaoGrande {
-	padding-bottom: 15px 50px;
+	padding: 15px 15px;
 }
 /*CORES DOS BOTÕES*/
 .botaoAmarelo {
@@ -140,6 +140,7 @@ audio {
 	margin: 0.5%;
 	min-height: 270px;
 
+
 }
 .caixa2 {
 	width: 15.66667%;
@@ -158,6 +159,7 @@ audio {
 }
 .caixa6 {
 	width: 49%;
+
 	 
 }
 .caixa7 {
@@ -237,22 +239,22 @@ audio {
 	background: green;
 
 }
+
 .menu li {
 	font-weight: bold;
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 20px;
 }
-.menu li:hover {
-	background: rgb(50, 205, 40);
-
-}
+ 
 .menu a {
 	color: rgba(255, 255, 255, 0.9);
  }
-.menu a:hover {
+.menu li:hover {
 	color: #000000;
-		text-decoration: underline;
+	text-decoration: underline;
+	border-radius: 10px;
+	background: rgb(50, 205, 40);
 }
 /*SLIDE DE IMAGENS*/
 .slide {
@@ -394,8 +396,9 @@ input[type="text"],input[type="email"], textarea {
 	}
 	form {
 		width: 95%;
-	}
 
+	}
+	 
 }
 
 /*RODAPÉ*/
@@ -420,3 +423,5 @@ footer img {
 .social li a {
 	padding: 10px;
 }
+
+ 
