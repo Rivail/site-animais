@@ -245,6 +245,7 @@ audio {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 20px;
+
 }
  
 .menu a {
@@ -253,7 +254,7 @@ audio {
 .menu li:hover {
 	color: #000000;
 	text-decoration: underline;
-	border-radius: 10px;
+	border-radius: 10px 0 0 10px;
 	background: rgb(50, 205, 40);
 }
 /*SLIDE DE IMAGENS*/
